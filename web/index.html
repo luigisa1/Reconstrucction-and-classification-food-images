@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Classifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>🍴 Food Classifier</h1>
+            <p>Descubre qué plato es solo subiendo una imagen.</p>
+        </div>
+    </header>
+    <main>
+        <section class="upload-section">
+            <div class="container">
+                <h2>Sube tu imagen</h2>
+                <form id="uploadForm" class="form">
+                    <input type="file" id="imageInput" accept="image/*" class="file-input">
+                    <button type="submit" class="btn">Clasificar</button>
+                </form>
+                <div id="result" class="result"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Food Classifier. Creado con ❤️ por expertos en IA.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

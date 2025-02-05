@@ -1,0 +1,41 @@
+{
+    "method": "grid",
+    "parameters": {
+        "lenght_dataset": {
+            "values": ["reduced"]
+        },
+        "mask_params": {
+            "values": [1]
+        },
+        "epochs": {
+            "values": [3]
+        },
+        "batch_size": {
+            "values": [8]
+        },
+        "models": {
+            "values": ["fully_pretrained", "hybrid", "custom"]
+        },
+        "unet_encoder": {
+            "values": ["efficientnet-b0", "resnet50"]
+        },
+        "pretrained_transformer": {
+            "values": ["deit_base_patch16_224", "vit_base_patch16_224"]
+        },
+        "dataset_name": {
+            "values": ["food101"]
+        },
+        "data_path": {
+            "values": ["/home/lgimenos98/Reconstruction_and_classification/data/food-101"]
+        },
+        "model_path": {
+            "values": ["/home/lgimenos98/Reconstruction_and_classification/models/"]
+        },
+        "logs_path": {
+            "values": ["/home/lgimenos98/Reconstruction_and_classification/reports_prueba/"]
+        },
+        "num_classes": {
+            "values": [101]
+        }
+    }
+}
